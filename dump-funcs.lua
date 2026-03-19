@@ -1,3 +1,6 @@
+--[[
+    made by evrett-k on GitHub
+]]
 function dump_functions (prefix, a)
     for key, value in pairs(a) do
         if type(value) == "function" then
